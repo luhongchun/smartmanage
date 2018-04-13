@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    config:
+     uri: http://smart:sf20150707@mircoservice.smart-f.cn:8888
+     name: smart-cloud-opadmin
+     profile: prod # 对应{profile}部分
+     label: master # 对应git的分支
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://mircoservice.smart-f.cn:8761/eureka/

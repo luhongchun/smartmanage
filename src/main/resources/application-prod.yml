@@ -1,0 +1,19 @@
+service:
+  biz:
+    wan:
+      url:
+        base: http://garten.ms.smart-f.cn
+    version: 1.0.5
+
+smart:
+  service:
+    gateway:
+      url: http://gateway.ms.smart-f.cn:8200/api
+
+logging:
+  level:
+    root: WARN
+    org.springframework.web: WARN
+    org.springframework.security: WARN
+    org.hibernate: ERROR
+    cn.smart.cloud.biz.opadmin: INFO

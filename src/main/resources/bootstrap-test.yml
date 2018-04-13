@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    config:
+     uri: http://smart:sf20150707@dev.ms.smart-f.cn:8888
+     name: smart-cloud-opadmin
+     profile: test # 对应{profile}部分
+     label: dev # 对应git的分支
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://t.ms.smart-f.cn:8761/eureka/

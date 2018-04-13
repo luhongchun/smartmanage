@@ -1,0 +1,11 @@
+service:
+  biz:
+    wan:
+      url:
+        base: http://t.garten.smart-f.cn
+    version: 1.0.5
+
+smart:
+  service:
+    gateway:
+      url: http://t.ms.smart-f.cn:8200/api
